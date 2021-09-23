@@ -1,12 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 import './index.css';
 
-ReactDOM.render(
-  <React>
-    <div bg-red-50	>
-        Hello Testbaby
-    </div>
-  </React>,
-  document.getElementById('root')
-);
+// render the App router to the body of the site
+ReactDOM.render(<App/>, document.getElementById('root'));
