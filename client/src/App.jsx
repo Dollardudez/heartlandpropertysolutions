@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from  "react-router-dom";
 import Home from './routes/Home';
 import Admin from './routes/Admin';
+import Navbar from './views/Navbar';
 import PropertyDetail from './routes/PropertyDetail';
 
 
@@ -13,15 +14,16 @@ import PropertyDetail from './routes/PropertyDetail';
  */
 const App = () => {
   return (
-       <div className="container">
-            <Router>
+      <Router>
+          <Navbar />
+            <div className="container">
                 <Switch>
                     <Route exact path="/" component={Home}/>
                     <Route exact path="/admin" component={Admin}/>
                     <Route exact path="/properties/:id" component={PropertyDetail}/>
                 </Switch>
-            </Router>
-        </div>
+            </div>
+        </Router>
   );
 }
 

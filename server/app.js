@@ -1,7 +1,7 @@
 /**
  *Contains all endpoints for the express api server.
  */
-
+ const cors = require('cors');
 const express = require('express');
 const app = express();
 const Properties =  require('./db/mockdata');
@@ -13,6 +13,12 @@ const Properties =  require('./db/mockdata');
  * It is really only used for POST and PUT requests, not GETS.
  */
 app.use(express.json());
+
+/**
+ * Cors middleware to allow cross origin requests
+ */
+app.use(cors());
+
 
 
 

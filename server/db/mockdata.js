@@ -9,7 +9,8 @@ const Properties = [
       square: "900",
       availabilities: "2",
       price: "750",
-      map: "&center=-33.8569,151.2152&maptype=roadmap"
+      map: "&center=-33.8569,151.2152&maptype=roadmap",
+      picture: "./mockpicture.jpg"
     },
     {
         title: "West Ridge Apartments",
@@ -19,7 +20,8 @@ const Properties = [
         square: "1500",
         price: "1000",
         availabilities: "",
-        map: "&center=-33.8569,151.2152&maptype=roadmap"
+        map: "&center=-33.8569,151.2152&maptype=roadmap",
+        picture: "./mockpicture.jpg"
     },
     {
         title: "West Ridge Apartments",
@@ -29,7 +31,8 @@ const Properties = [
         square: "1000",
         availabilities: "2",
         price: "800",
-        map: "&center=-33.8569,151.2152&maptype=roadmap"
+        map: "&center=-33.8569,151.2152&maptype=roadmap",
+        picture: "./mockpicture.jpg"
     },
     {
         title: "West Ridge Apartments",
@@ -39,7 +42,8 @@ const Properties = [
         square: "900",
         price: "800",
         availabilities: "2",
-        map: "&center=-33.8569,151.2152&maptype=roadmap"
+        map: "&center=-33.8569,151.2152&maptype=roadmap",
+        picture: "./mockpicture.jpg"
     },
     {
         title: "West Ridge Apartments",
@@ -49,7 +53,8 @@ const Properties = [
         square: "900",
         price: "800",
         availabilities: "2",
-        map: "&center=-33.8569,151.2152&maptype=roadmap"
+        map: "&center=-33.8569,151.2152&maptype=roadmap",
+        picture: "./mockpicture.jpg"
     },
     {
         title: "West Ridge Apartments",
@@ -59,7 +64,8 @@ const Properties = [
         square: "900",
         price: "800",
         availabilities: "2",
-        map: "&center=-33.8569,151.2152&maptype=roadmap"
+        map: "&center=-33.8569,151.2152&maptype=roadmap",
+        picture: "../mockpicture.jpg"
     }
   ];
 
